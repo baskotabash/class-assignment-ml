@@ -1,44 +1,58 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+from collections import Counter
 
-# Load dataset
-# data is loaded on data.csv file on same directory
-df = pd.read_csv("data.csv")
 
-# Features and labels
-X = df[['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth']]
-y = df['Name']
+# KNN Classifier
+def euclidean_distance(a, b):
+    return np.sqrt(np.sum((a - b) ** 2))
 
-# Encode target labels
-le = LabelEncoder()
-y_encoded = le.fit_transform(y)
 
-# Split dataset
-X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
+def knn_classifier(train_data, test_data, k=3):
+    distances = []
+    for i in range(len(train_data)):
+        train_row = train_data.iloc[i, :-1].values  # features (exclude 'Name')
+        label = train_data.iloc[i, -1]  # label (the iris type)
+        dist = euclidean_distance(train_row, test_data)
+        distances.append((dist, label))
 
-# Train KNN model
-knn = KNeighborsClassifier(n_neighbors=3)
-knn.fit(X_train, y_train)
+    # Sort distances by the first value (distance)
+    distances.sort(key=lambda x: x[0])
 
-# Get user input
-print("Enter flower measurements:")
-sepal_length = float(input("Sepal Length (cm): "))
-sepal_width = float(input("Sepal Width (cm): "))
-petal_length = float(input("Petal Length (cm): "))
-petal_width = float(input("Petal Width (cm): "))
+    # Get the k nearest neighbors
+    neighbors = distances[:k]
 
-# Make prediction
-input_data = pd.DataFrame([{
-    'SepalLength': sepal_length,
-    'SepalWidth': sepal_width,
-    'PetalLength': petal_length,
-    'PetalWidth': petal_width
-}])
+    # Get the most common class among the neighbors
+    labels = [neighbor[1] for neighbor in neighbors]
+    most_common_label = Counter(labels).most_common(1)[0][0]
 
-prediction = knn.predict(input_data)
-predicted_label = le.inverse_transform(prediction)
+    return most_common_label
 
-# Output result
-print(f"\nThe predicted Iris species is: {predicted_label[0]}")
+
+# Read data from CSV file
+df = pd.read_csv('data.csv')
+
+
+# Function to prompt for user input and classify
+def predict_iris(k=3):
+    try:
+        # Prompt the user for input
+        sepal_length = float(input("Enter sepal length (in cm): "))
+        sepal_width = float(input("Enter sepal width (in cm): "))
+        petal_length = float(input("Enter petal length (in cm): "))
+        petal_width = float(input("Enter petal width (in cm): "))
+
+        # Combine user inputs into a test data array
+        test_data = np.array([sepal_length, sepal_width, petal_length, petal_width])
+
+        # Get the prediction using KNN
+        prediction = knn_classifier(df, test_data, k)
+
+        # Output the result
+        print(f"The predicted iris species is: {prediction}")
+    except ValueError:
+        print("Invalid input. Please enter numeric values for all measurements.")
+
+
+# Example Usage
+predict_iris(k=3)
