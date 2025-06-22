@@ -1,79 +1,83 @@
 
-# Iris Flower Species Prediction with K-Nearest Neighbors (KNN)
+# KNN Classifier for Iris Species Prediction
 
-This Python program uses the K-Nearest Neighbors (KNN) algorithm to predict the species of an Iris flower based on its sepal and petal measurements. The program is trained on the Iris dataset and accepts user input to make real-time predictions.
+This Python script implements a basic K-Nearest Neighbors (KNN) algorithm to classify the species of the Iris flower based on its physical measurements: sepal length, sepal width, petal length, and petal width. The classification is based on the Euclidean distance between the test sample and the training data.
 
-## Prerequisites
+## Requirements
 
-Before running the program, ensure you have the following Python packages installed:
+To run this code, you will need:
 
+* Python 3.x
 * pandas
-* scikit-learn
+* numpy
 
-You can install them using pip if they are not already installed:
-pip install pandas scikit-learn
+You can install the required libraries using pip:
 
-## Dataset
+```bash
+pip install pandas numpy
+```
 
-The program uses the famous [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris), where each row represents a flower with four features:
+## Files
 
-* Sepal Length
-* Sepal Width
-* Petal Length
-* Petal Width
+* `data.csv`: A CSV file containing the training data. This file should have columns representing the physical measurements of the Iris flowers (sepal length, sepal width, petal length, petal width), along with the corresponding Iris species label.
 
-The target variable is the Iris flower species (`Setosa`, `Versicolor`, `Virginica`).
+## Code Overview
 
-### Data Format
+### 1. **`euclidean_distance(a, b)`**
 
-The dataset should be stored in a `data.csv` file in the same directory as this script, with the following columns:
+* Calculates the Euclidean distance between two points `a` and `b`.
+* This function is used to measure the "closeness" between test data and training data.
 
-| SepalLength | SepalWidth | PetalLength | PetalWidth | Name   |
-| ----------- | ---------- | ----------- | ---------- | ------ |
-| 5.1         | 3.5        | 1.4         | 0.2        | Setosa |
-| 4.9         | 3.0        | 1.4         | 0.2        | Setosa |
-| ...         | ...        | ...         | ...        | ...    |
+### 2. **`knn_classifier(train_data, test_data, k=3)`**
 
-## How to Run
+* Takes the training data (`train_data`), the test data (`test_data`), and the value of `k` as inputs.
+* Computes the Euclidean distance from each row of the training data to the test data.
+* Sorts the distances and selects the `k` nearest neighbors.
+* The most common class (label) among the neighbors is returned as the predicted species.
 
-1. Ensure your Python environment has the required packages (pandas, scikit-learn).
-2. Download the 'data.csv' dataset and place it in the same directory as the script.
-3. Run the Python script:
+### 3. **`predict_iris(k=3)`**
 
+* Prompts the user to input the physical measurements of an Iris flower.
+* Uses the KNN classifier to predict the species of the flower based on the provided measurements.
+* Outputs the predicted species.
 
-python iris_prediction.py
+## Example Usage
 
-## User Input
+1. Make sure the `data.csv` file is present in the same directory as the script, containing the Iris dataset.
+2. Run the script:
 
-Once the script is running, it will prompt the user to enter the following flower measurements (in cm):
+```bash
+python knn_classifier.py
+```
 
-* Sepal Length
-* Sepal Width
-* Petal Length
-* Petal Width
+3. When prompted, enter the sepal and petal measurements of the Iris flower. For example:
 
-Example:
+   * Sepal length (in cm): `5.1`
+   * Sepal width (in cm): `3.5`
+   * Petal length (in cm): `1.4`
+   * Petal width (in cm): `0.2`
 
-Enter flower measurements:
-Sepal Length (cm): 5.1
-Sepal Width (cm): 3.5
-Petal Length (cm): 1.4
-Petal Width (cm): 0.2
+4. The script will output the predicted Iris species, such as `Iris-setosa`, `Iris-versicolor`, or `Iris-virginica`.
 
-## Output
+## Example Output
 
-After entering the measurements, the script will output the predicted Iris species.
+```bash
+Enter sepal length (in cm): 5.1
+Enter sepal width (in cm): 3.5
+Enter petal length (in cm): 1.4
+Enter petal width (in cm): 0.2
+The predicted iris species is: Iris-setosa
+```
 
-Example output:
-The predicted Iris species is: Setosa
+## Notes
 
+* The dataset used in this script is assumed to be in the form of a CSV file (`data.csv`) containing measurements of Iris flowers with columns for sepal length, sepal width, petal length, petal width, and species label.
+* The KNN algorithm used here is a simple implementation based on the Euclidean distance and the majority vote among the `k` nearest neighbors. It is recommended to use more sophisticated libraries like `scikit-learn` for larger datasets or more advanced functionality.
 
-## Model Details
+## Customization
 
-* The script uses the **K-Nearest Neighbors (KNN)** algorithm with `n_neighbors=3` to classify the flower species.
-* The target labels are encoded using `LabelEncoder` to handle the categorical output of species.
-* The dataset is split into training and testing sets (80% training, 20% testing) to evaluate the model's performance.
+* You can change the value of `k` by modifying the function call `predict_iris(k=3)` to use a different number of neighbors for classification.
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This code is provided under the MIT License. Feel free to use and modify it as needed.
