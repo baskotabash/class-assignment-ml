@@ -1,0 +1,601 @@
+row_index,original_text,augmented_text,augmentation_type,short_description_of_changed_words
+0,I found a hair in my food.,I found a hair in notice my food.,insertion,inserted: notice
+0,I found a hair in my food.,I plant a hair in my food.,synonym,found -> plant
+0,I found a hair in my food.,I found a angstrom unit hair in my food.,insertion,inserted: angstrom unit
+1,Could you bring us the dessert menu?,Could you bestow us the dessert menu?,synonym,bring -> bestow
+1,Could you bring us the dessert menu?,Could you bring us the dessert menu?,deletion,none
+1,Could you bring us the dessert menu?,Could you bring us the dessert menu?,deletion,none
+2,Great atmosphere and friendly staff.,and atmosphere Great friendly staff.,swap,and <-> Great
+2,Great atmosphere and friendly staff.,Great atmosphere and friendly,deletion,deleted: staff.
+2,Great atmosphere and friendly staff.,Great atmosphere and standard atmosphere friendly staff.,insertion,inserted: standard atmosphere
+3,Compliments to the chef!,congratulate to the chef!,synonym,Compliments -> congratulate
+3,Compliments to the chef!,Compliments to the chef!,deletion,none
+3,Compliments to the chef!,Compliments wish to the chef!,insertion,inserted: wish
+4,This was a fantastic dining experience.,This was a fantastic dining experience.,deletion,none
+4,This was a fantastic dining experience.,This was a fantastic dining experience.,deletion,none
+4,This was a fantastic dining experience.,This was a fantastic experience.,deletion,deleted: dining
+5,"Yes, I’d like the salmon, please.","Yes, I’d like the salmon, please.",deletion,none
+5,"Yes, I’d like the salmon, please.","Yes, I’d the likes of the salmon, please.",synonym,like -> the likes of
+5,"Yes, I’d like the salmon, please.","Yes, I’d like the please. salmon,",swap,"please. <-> salmon,"
+6,What’s the most popular dish here?,What’s here? most popular dish the,swap,here? <-> the
+6,What’s the most popular dish here?,What’s the almost popular dish here?,synonym,most -> almost
+6,What’s the most popular dish here?,What’s the most nearly popular dish here?,insertion,inserted: nearly
+7,Do you have a table near the window?,Do you have a tabularize near the window?,synonym,table -> tabularize
+7,Do you have a table near the window?,Do you have a put over near the window?,synonym,table -> put over
+7,Do you have a table near the window?,you have a table the window?,deletion,"deleted: Do, near"
+8,"Can I get a table for two, please?","Can I get amp table for two, please?",synonym,a -> amp
+8,"Can I get a table for two, please?","Can two, get a table for I please?",swap,"two, <-> I"
+8,"Can I get a table for two, please?",Can I get a table please?,deletion,"deleted: for, two,"
+9,"That’s correct, two coffees and a muffin.","That’s correct, deuce coffees and a muffin.",synonym,two -> deuce
+9,"That’s correct, two coffees and a muffin.","That’s correct, two coffees and muffin.",deletion,deleted: a
+9,"That’s correct, two coffees and a muffin.","That’s correct, 2 coffees and a muffin.",synonym,two -> 2
+10,This was a fantastic dining experience.,This was a terrific dining experience.,synonym,fantastic -> terrific
+10,This was a fantastic dining experience.,This angstrom unit was a fantastic dining experience.,insertion,inserted: angstrom unit
+10,This was a fantastic dining experience.,This was a fantastic dining experience. angstrom,insertion,inserted: angstrom
+11,"Yes, I’d like the salmon, please.","Yes, like the salmon, please.",deletion,deleted: I’d
+11,"Yes, I’d like the salmon, please.","Yes, I’d care the salmon, please.",synonym,like -> care
+11,"Yes, I’d like the salmon, please.","Yes, I’d alike the salmon, please.",synonym,like -> alike
+12,"Yes, we have a reservation at 7.","Yes, we have reservation a at 7.",swap,reservation <-> a
+12,"Yes, we have a reservation at 7.","7. we have a reservation at Yes,",swap,"Yes, <-> 7."
+12,"Yes, we have a reservation at 7.","Yes, we experience a reservation at 7.",synonym,have -> experience
+13,"No, we haven’t ordered yet.","No, haven’t ordered yet.",deletion,deleted: we
+13,"No, we haven’t ordered yet.","No, we haven’t ordered yet.",deletion,none
+13,"No, we haven’t ordered yet.","No, we haven’t ordered yet.",deletion,none
+14,Everything was perfect tonight.,Everything was exist perfect tonight.,insertion,inserted: exist
+14,Everything was perfect tonight.,Everything constitute perfect tonight.,synonym,was -> constitute
+14,Everything was perfect tonight.,Everything was perfect tense tonight.,synonym,perfect -> perfect tense
+15,My order is taking too long.,My order is taking also long.,synonym,too -> also
+15,My order is taking too long.,is order My taking too long.,swap,is <-> My
+15,My order is taking too long.,is taking long.,deletion,"deleted: My, order, too"
+16,Do you serve breakfast all day?,Do you serve breakfast dish out all day?,insertion,inserted: dish out
+16,Do you serve breakfast all day?,Do day? serve breakfast all you,swap,day? <-> you
+16,Do you serve breakfast all day?,Do you serve well breakfast all day?,synonym,serve -> serve well
+17,"That will be all for now, thank you.","thank will be all for now, That you.",swap,thank <-> That
+17,"That will be all for now, thank you.","That will bequeath be all for now, thank you.",insertion,inserted: bequeath
+17,"That will be all for now, thank you.","That be will all for now, thank you.",swap,be <-> will
+18,"That’s perfect, thank you.","That’s perfect, give thanks thank you.",insertion,inserted: give thanks
+18,"That’s perfect, thank you.","That’s perfect, thank you.",deletion,none
+18,"That’s perfect, thank you.","That’s perfect, give thanks you.",synonym,thank -> give thanks
+19,Do you have a table near the window?,Do the have a table near you window?,swap,you <-> the
+19,Do you have a table near the window?,table you have a Do near the window?,swap,table <-> Do
+19,Do you have a table near the window?,Do put off you have a table near the window?,insertion,inserted: put off
+20,We’ve been waiting for 30 minutes.,We’ve been waiting for 30 minutes.,deletion,none
+20,We’ve been waiting for 30 minutes.,We’ve been waiting for 30 minutes.,deletion,none
+20,We’ve been waiting for 30 minutes.,We’ve been waiting xxx for 30 minutes.,insertion,inserted: xxx
+21,"That’s perfect, thank you.","That’s perfect, give thanks you.",synonym,thank -> give thanks
+21,"That’s perfect, thank you.","That’s perfect, thank",deletion,deleted: you.
+21,"That’s perfect, thank you.","That’s thank perfect, you.",swap,"thank <-> perfect,"
+22,The pasta was amazing!,The pasta was amazing!,deletion,none
+22,The pasta was amazing!,amazing! pasta was The,swap,amazing! <-> The
+22,The pasta was amazing!,The pasta was amazing!,deletion,none
+23,Best restaurant in town!,Best restaurant town! in,swap,town! <-> in
+23,Best restaurant in town!,Best eating place in town!,synonym,restaurant -> eating place
+23,Best restaurant in town!,restaurant Best in town!,swap,Best <-> restaurant
+24,We'd like to order now.,We'd like to order now.,deletion,none
+24,We'd like to order now.,We'd to order now.,deletion,deleted: like
+24,We'd like to order now.,We'd like to consecrate now.,synonym,order -> consecrate
+25,"Can we have the bill, please?","Can we wealthy person the bill, please?",synonym,have -> wealthy person
+25,"Can we have the bill, please?","Can we bill, the have please?",swap,"bill, <-> have"
+25,"Can we have the bill, please?","Can we have the own bill, please?",insertion,inserted: own
+26,"Can I get a table for two, please?","Can I get a table commode for two, please?",insertion,inserted: commode
+26,"Can I get a table for two, please?","Can I produce a table for two, please?",synonym,get -> produce
+26,"Can I get a table for two, please?","Can I get a table two, please?",deletion,deleted: for
+27,"Yes, we have a reservation at 7.","Yes, we have a reservation at 7.",deletion,none
+27,"Yes, we have a reservation at 7.","reservation we have a Yes, at 7.",swap,"Yes, <-> reservation"
+27,"Yes, we have a reservation at 7.","Yes, we have angstrom reservation at 7.",synonym,a -> angstrom
+28,Do you have outdoor seating?,Do you outdoor have seating?,swap,outdoor <-> have
+28,Do you have outdoor seating?,Do you experience outdoor seating?,synonym,have -> experience
+28,Do you have outdoor seating?,Do you have seating? outdoor,swap,outdoor <-> seating?
+29,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the bar.",deletion,none
+29,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the bar.",deletion,none
+29,"Sure, I’ll wait at the bar.","wait I’ll Sure, at the bar.",swap,"wait <-> Sure,"
+30,Compliments to the chef!,Compliments to the chef!,deletion,none
+30,Compliments to the chef!,compliments Compliments to the chef!,insertion,inserted: compliments
+30,Compliments to the chef!,Compliments to wish the chef!,insertion,inserted: wish
+31,Do you serve breakfast all day?,Do you serve breakfast all day?,deletion,none
+31,Do you serve breakfast all day?,Do day? serve breakfast all you,swap,day? <-> you
+31,Do you serve breakfast all day?,Do you serve all day?,deletion,deleted: breakfast
+32,We had a lovely time.,We had adenine lovely time.,synonym,a -> adenine
+32,We had a lovely time.,We had a lovely time.,deletion,none
+32,We had a lovely time.,We birth a lovely time.,synonym,had -> birth
+33,The service was very slow.,slow. service was very The,swap,slow. <-> The
+33,The service was very slow.,The was service very slow.,swap,was <-> service
+33,The service was very slow.,The service live very slow.,synonym,was -> live
+34,Our reservation was not honored.,Our reservation was not non honored.,insertion,inserted: non
+34,Our reservation was not honored.,Our reservation was not honored.,deletion,none
+34,Our reservation was not honored.,Our reservation was cost not honored.,insertion,inserted: cost
+35,"Can I get a table for two, please?","Can I get a tooshie table for two, please?",insertion,inserted: tooshie
+35,"Can I get a table for two, please?","Can for get a table I two, please?",swap,I <-> for
+35,"Can I get a table for two, please?","Can 1 get a table for two, please?",synonym,I -> 1
+36,Compliments to the chef!,chef! to the Compliments,swap,Compliments <-> chef!
+36,Compliments to the chef!,Compliments the chef!,deletion,deleted: to
+36,Compliments to the chef!,compliments Compliments to the chef!,insertion,inserted: compliments
+37,Do you have any daily specials?,you Do have any daily specials?,swap,Do <-> you
+37,Do you have any daily specials?,Do have any daily specials?,deletion,deleted: you
+37,Do you have any daily specials?,Do you have any daily specials?,deletion,none
+38,Do you take reservations?,Do you take reservations? shoot,insertion,inserted: shoot
+38,Do you take reservations?,Do you reservations? take,swap,reservations? <-> take
+38,Do you take reservations?,Do you take reservations?,deletion,none
+39,I found a hair in my food.,I a hair in my food.,deletion,deleted: found
+39,I found a hair in my food.,ane found a hair in my food.,synonym,I -> ane
+39,I found a hair in my food.,food. found a hair in my I,swap,food. <-> I
+40,This was a fantastic dining experience.,This was a fantastic dining experience.,deletion,none
+40,This was a fantastic dining experience.,This was a wonderful dining experience.,synonym,fantastic -> wonderful
+40,This was a fantastic dining experience.,This was a fantastic dining experience. boom,insertion,inserted: boom
+41,Can I change my order?,Can I change my alter order?,insertion,inserted: alter
+41,Can I change my order?,Can I switch change my order?,insertion,inserted: switch
+41,Can I change my order?,Can I change my order?,deletion,none
+42,We had a lovely time.,We had experience a lovely time.,insertion,inserted: experience
+42,We had a lovely time.,We had a lovely time.,deletion,none
+42,We had a lovely time.,We had a amp lovely time.,insertion,inserted: amp
+43,Best restaurant in town!,Best restaurant in town!,deletion,none
+43,Best restaurant in town!,good restaurant in town!,synonym,Best -> good
+43,Best restaurant in town!,Best restaurant in town!,deletion,none
+44,"That will be all for now, thank you.","That will be all for now, give thanks you.",synonym,thank -> give thanks
+44,"That will be all for now, thank you.","That will thank all for now, be you.",swap,be <-> thank
+44,"That will be all for now, thank you.","That will be all for now, thank you.",deletion,none
+45,"Yes, everything’s great.","great. everything’s Yes,",swap,"Yes, <-> great."
+45,"Yes, everything’s great.","Yes, everything’s great.",deletion,none
+45,"Yes, everything’s great.","Yes, everything’s great.",deletion,none
+46,"That’s correct, two coffees and a muffin.","That’s correct, two coffees and type a a muffin.",insertion,inserted: type a
+46,"That’s correct, two coffees and a muffin.","a correct, two coffees and That’s muffin.",swap,That’s <-> a
+46,"That’s correct, two coffees and a muffin.",That’s two coffees and a muffin.,deletion,"deleted: correct,"
+47,This was a fantastic dining experience.,This was a fantastic experience.,deletion,deleted: dining
+47,This was a fantastic dining experience.,This was a dining experience.,deletion,deleted: fantastic
+47,This was a fantastic dining experience.,follow This was a fantastic dining experience.,insertion,inserted: follow
+48,The steak is undercooked.,The steak personify undercooked.,synonym,is -> personify
+48,The steak is undercooked.,The steak live is undercooked.,insertion,inserted: live
+48,The steak is undercooked.,The steak equal undercooked.,synonym,is -> equal
+49,Do you have a table near the window?,Do you near a table have the window?,swap,have <-> near
+49,Do you have a table near the window?,Do you have a table near,deletion,"deleted: the, window?"
+49,Do you have a table near the window?,Do you have deoxyadenosine monophosphate table near the window?,synonym,a -> deoxyadenosine monophosphate
+50,The pasta was amazing!,The pasta was amazing!,deletion,none
+50,The pasta was amazing!,The pasta constitute amazing!,synonym,was -> constitute
+50,The pasta was amazing!,The alimentary paste was amazing!,synonym,pasta -> alimentary paste
+51,Can I change my order?,Can I can buoy change my order?,insertion,inserted: can buoy
+51,Can I change my order?,Can I tail change my order?,insertion,inserted: tail
+51,Can I change my order?,I Can change my order?,swap,Can <-> I
+52,"Yes, we have a reservation at 7.","Yes, we atomic number 85 have a reservation at 7.",insertion,inserted: atomic number 85
+52,"Yes, we have a reservation at 7.","Yes, we have a reservation at 7. atomic number 85",insertion,inserted: atomic number 85
+52,"Yes, we have a reservation at 7.","Yes, we have a reservation at",deletion,deleted: 7.
+53,Can I see the wine list?,Can ane see the wine list?,synonym,I -> ane
+53,Can I see the wine list?,Can I visualise the wine list?,synonym,see -> visualise
+53,Can I see the wine list?,Can I see the wine,deletion,deleted: list?
+54,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the",deletion,deleted: bar.
+54,"Sure, I’ll wait at the bar.","Sure, I’ll wait the bar.",deletion,deleted: at
+54,"Sure, I’ll wait at the bar.","Sure, I’ll wait astatine the bar.",synonym,at -> astatine
+55,Is gratuity included in the bill?,Is indiana gratuity included in the bill?,insertion,inserted: indiana
+55,Is gratuity included in the bill?,Is baksheesh included in the bill?,synonym,gratuity -> baksheesh
+55,Is gratuity included in the bill?,Is gratuity let in in the bill?,synonym,included -> let in
+56,This soup is cold.,live This soup is cold.,insertion,inserted: live
+56,This soup is cold.,This soup embody cold.,synonym,is -> embody
+56,This soup is cold.,This soup is cold.,deletion,none
+57,I found a hair in my food.,I found a in hair my food.,swap,in <-> hair
+57,I found a hair in my food.,I found a hair my in food.,swap,in <-> my
+57,I found a hair in my food.,I hair my food.,deletion,"deleted: found, a, in"
+58,Do you have outdoor seating?,Do you have outdoor seating? behave,insertion,inserted: behave
+58,Do you have outdoor seating?,bash you have outdoor seating?,synonym,Do -> bash
+58,Do you have outdoor seating?,Do have you outdoor seating?,swap,have <-> you
+59,Can I see the wine list?,Can I see unity the wine list?,insertion,inserted: unity
+59,Can I see the wine list?,Can wine-coloured I see the wine list?,insertion,inserted: wine-coloured
+59,Can I see the wine list?,Can I wine the see list?,swap,see <-> wine
+60,"That will be all for now, thank you.","That equal will be all for now, thank you.",insertion,inserted: equal
+60,"That will be all for now, thank you.","That will be all for give thanks now, thank you.",insertion,inserted: give thanks
+60,"That will be all for now, thank you.","That will be altogether for now, thank you.",synonym,all -> altogether
+61,Do you have any gluten-free options?,Do you have any whatever gluten-free options?,insertion,inserted: whatever
+61,Do you have any gluten-free options?,Do you gluten-free any have options?,swap,have <-> gluten-free
+61,Do you have any gluten-free options?,whatsoever Do you have any gluten-free options?,insertion,inserted: whatsoever
+62,We had a lovely time.,We had lovely a time.,swap,lovely <-> a
+62,We had a lovely time.,time. had a lovely We,swap,We <-> time.
+62,We had a lovely time.,We had a lovely give time.,insertion,inserted: give
+63,"Yes, everything’s great.","Yes, everything’s",deletion,deleted: great.
+63,"Yes, everything’s great.","Yes, great. everything’s",swap,great. <-> everything’s
+63,"Yes, everything’s great.","Yes, everything’s great.",synonym,
+64,"That’s perfect, thank you.","That’s perfect, thank give thanks you.",insertion,inserted: give thanks
+64,"That’s perfect, thank you.","you. perfect, thank That’s",swap,That’s <-> you.
+64,"That’s perfect, thank you.","perfect, That’s thank you.",swap,"perfect, <-> That’s"
+65,Do you have a table near the window?,Do you suffer a table near the window?,synonym,have -> suffer
+65,Do you have a table near the window?,Do you consume a table near the window?,synonym,have -> consume
+65,Do you have a table near the window?,Do you have a table near the axerophthol window?,insertion,inserted: axerophthol
+66,"Yes, we have a reservation at 7.","Yes, 7. have a reservation at we",swap,we <-> 7.
+66,"Yes, we have a reservation at 7.","Yes, we have axerophthol reservation at 7.",synonym,a -> axerophthol
+66,"Yes, we have a reservation at 7.","Yes, have reservation at 7.",deletion,"deleted: we, a"
+67,The food doesn’t taste fresh.,The food doesn’t taste fresh. try out,insertion,inserted: try out
+67,The food doesn’t taste fresh.,try out The food doesn’t taste fresh.,insertion,inserted: try out
+67,The food doesn’t taste fresh.,The fresh. doesn’t taste food,swap,fresh. <-> food
+68,We’ve been waiting for 30 minutes.,30 been waiting for We’ve minutes.,swap,30 <-> We’ve
+68,We’ve been waiting for 30 minutes.,been waiting for minutes.,deletion,"deleted: We’ve, 30"
+68,We’ve been waiting for 30 minutes.,We’ve constitute waiting for 30 minutes.,synonym,been -> constitute
+69,This was a fantastic dining experience.,This was a dining experience.,deletion,deleted: fantastic
+69,This was a fantastic dining experience.,was This a fantastic dining experience.,swap,was <-> This
+69,This was a fantastic dining experience.,This was fantastic a dining experience.,swap,a <-> fantastic
+70,Can I get another glass of water?,Can I get another of glass water?,swap,glass <-> of
+70,Can I get another glass of water?,Can I get another glass,deletion,"deleted: of, water?"
+70,Can I get another glass of water?,glass I get another Can of water?,swap,glass <-> Can
+71,"Sure, I’ll wait at the bar.","Sure, I’ll time lag at the bar.",synonym,wait -> time lag
+71,"Sure, I’ll wait at the bar.","Sure, I’ll bar. at the wait",swap,bar. <-> wait
+71,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the waiting bar.",insertion,inserted: waiting
+72,"Can I get a table for two, please?","Can a get I table for two, please?",swap,a <-> I
+72,"Can I get a table for two, please?","Can I get a table for two, one please?",insertion,inserted: one
+72,"Can I get a table for two, please?","Can I get down a table for two, please?",synonym,get -> get down
+73,"Sure, I’ll wait at the bar.","Sure, I’ll bar. at the wait",swap,bar. <-> wait
+73,"Sure, I’ll wait at the bar.","Sure, I’ll postponement at the bar.",synonym,wait -> postponement
+73,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the bar.",deletion,none
+74,"That’s correct, two coffees and a muffin.","That’s correct, ii coffees and a muffin.",synonym,two -> ii
+74,"That’s correct, two coffees and a muffin.","That’s correct, ii coffees and a muffin.",synonym,two -> ii
+74,"That’s correct, two coffees and a muffin.","That’s correct, burnt umber two coffees and a muffin.",insertion,inserted: burnt umber
+75,Is gratuity included in the bill?,Is gratuity included in make up the bill?,insertion,inserted: make up
+75,Is gratuity included in the bill?,constitute gratuity included in the bill?,synonym,Is -> constitute
+75,Is gratuity included in the bill?,Is baksheesh included in the bill?,synonym,gratuity -> baksheesh
+76,Can I see the wine list?,Can I see the wine,deletion,deleted: list?
+76,Can I see the wine list?,Can unity see the wine list?,synonym,I -> unity
+76,Can I see the wine list?,Can I iodin see the wine list?,insertion,inserted: iodin
+77,This was a fantastic dining experience.,This was a dine fantastic dining experience.,insertion,inserted: dine
+77,This was a fantastic dining experience.,This was a fantastic dine experience.,synonym,dining -> dine
+77,This was a fantastic dining experience.,This was a fantastic dining experience.,deletion,none
+78,The steak is undercooked.,The undercooked. is steak,swap,undercooked. <-> steak
+78,The steak is undercooked.,equal The steak is undercooked.,insertion,inserted: equal
+78,The steak is undercooked.,The steak follow undercooked.,synonym,is -> follow
+79,I found a hair in my food.,I found a hair in whisker my food.,insertion,inserted: whisker
+79,I found a hair in my food.,I found a hair's-breadth in my food.,synonym,hair -> hair's-breadth
+79,I found a hair in my food.,I found a hair in food.,deletion,deleted: my
+80,We’ll be paying separately.,We’ll be paying separately.,deletion,none
+80,We’ll be paying separately.,We’ll be gainful separately.,synonym,paying -> gainful
+80,We’ll be paying separately.,We’ll separately. paying be,swap,be <-> separately.
+81,Great atmosphere and friendly staff.,Great atmosphere and friendly favorable staff.,insertion,inserted: favorable
+81,Great atmosphere and friendly staff.,not bad atmosphere and friendly staff.,synonym,Great -> not bad
+81,Great atmosphere and friendly staff.,Great ambience and friendly staff.,synonym,atmosphere -> ambience
+82,What’s the most popular dish here?,What’s the to the highest degree popular dish here?,synonym,most -> to the highest degree
+82,What’s the most popular dish here?,What’s the most popular dish here?,deletion,none
+82,What’s the most popular dish here?,What’s the almost popular dish here?,synonym,most -> almost
+83,"Can I speak to the manager, please?","Can I utter to the manager, please?",synonym,speak -> utter
+83,"Can I speak to the manager, please?","Can please? speak to the manager, I",swap,please? <-> I
+83,"Can I speak to the manager, please?","Can I speak to manager, please?",deletion,deleted: the
+84,The pasta was amazing!,live The pasta was amazing!,insertion,inserted: live
+84,The pasta was amazing!,The pasta be amazing!,synonym,was -> be
+84,The pasta was amazing!,The was pasta amazing!,swap,pasta <-> was
+85,This isn’t what I ordered.,I isn’t what This ordered.,swap,This <-> I
+85,This isn’t what I ordered.,This isn’t iodin what I ordered.,insertion,inserted: iodin
+85,This isn’t what I ordered.,This what I ordered.,deletion,deleted: isn’t
+86,Thank you for the excellent service.,you Thank for the excellent service.,swap,you <-> Thank
+86,Thank you for the excellent service.,Thank you for excellent the service.,swap,excellent <-> the
+86,Thank you for the excellent service.,Thank you for excellent service.,deletion,deleted: the
+87,Do you have a table near the window?,Do you have group a table near the window?,synonym,a -> group a
+87,Do you have a table near the window?,you Do have a table near the window?,swap,Do <-> you
+87,Do you have a table near the window?,you have a table near the window?,deletion,deleted: Do
+88,Great atmosphere and friendly staff.,Great atmosphere and staff.,deletion,deleted: friendly
+88,Great atmosphere and friendly staff.,Great friendly and atmosphere staff.,swap,friendly <-> atmosphere
+88,Great atmosphere and friendly staff.,Great atmospheric state and friendly staff.,synonym,atmosphere -> atmospheric state
+89,The steak is undercooked.,The undercooked. is steak,swap,steak <-> undercooked.
+89,The steak is undercooked.,The steak is embody undercooked.,insertion,inserted: embody
+89,The steak is undercooked.,steak The is undercooked.,swap,steak <-> The
+90,This isn’t what I ordered.,This isn’t what iodine I ordered.,insertion,inserted: iodine
+90,This isn’t what I ordered.,This isn’t what I ordered.,deletion,none
+90,This isn’t what I ordered.,This isn’t what I ordered.,insertion,none
+91,I’ll definitely come back again.,I’ll definitely again. back come,swap,again. <-> come
+91,I’ll definitely come back again.,I’ll definitely come back decidedly again.,insertion,inserted: decidedly
+91,I’ll definitely come back again.,I’ll back come definitely again.,swap,back <-> definitely
+92,What are your opening hours?,What exist your opening hours?,synonym,are -> exist
+92,What are your opening hours?,What are your give opening hours?,insertion,inserted: give
+92,What are your opening hours?,What are your opening move hours?,synonym,opening -> opening move
+93,My order is taking too long.,My order is taking too long.,deletion,none
+93,My order is taking too long.,My order too taking is long.,swap,too <-> is
+93,My order is taking too long.,My order is lease too long.,synonym,taking -> lease
+94,This isn’t what I ordered.,This isn’t what I ordered.,deletion,none
+94,This isn’t what I ordered.,I isn’t what This ordered.,swap,I <-> This
+94,This isn’t what I ordered.,This i isn’t what I ordered.,insertion,inserted: i
+95,"Yes, we’re ready to order.","Yes, we’re ready to order.",deletion,none
+95,"Yes, we’re ready to order.","Yes, we’re ready to make order.",insertion,inserted: make
+95,"Yes, we’re ready to order.","Yes, we’re ready to order.",deletion,none
+96,Our reservation was not honored.,Our reservation was not mental reservation honored.,insertion,inserted: mental reservation
+96,Our reservation was not honored.,Our reservation not honored.,deletion,deleted: was
+96,Our reservation was not honored.,honored. reservation was not Our,swap,honored. <-> Our
+97,What are your opening hours?,What are your hours?,deletion,deleted: opening
+97,What are your opening hours?,your are What opening hours?,swap,What <-> your
+97,What are your opening hours?,What constitute your opening hours?,synonym,are -> constitute
+98,Best restaurant in town!,in restaurant Best town!,swap,in <-> Best
+98,Best restaurant in town!,Best in restaurant town!,swap,restaurant <-> in
+98,Best restaurant in town!,scoop restaurant in town!,synonym,Best -> scoop
+99,"Can we have the bill, please?","Can we sustain the bill, please?",synonym,have -> sustain
+99,"Can we have the bill, please?","Can we please? the bill, have",swap,please? <-> have
+99,"Can we have the bill, please?","Can we have the bill, please?",deletion,none
+100,I’ll definitely come back again.,I’ll definitely back,deletion,"deleted: come, again."
+100,I’ll definitely come back again.,I’ll back come definitely again.,swap,definitely <-> back
+100,I’ll definitely come back again.,I’ll definitely make out back again.,synonym,come -> make out
+101,I'd like to order a vegetarian dish.,I'd like to a dish.,deletion,"deleted: order, vegetarian"
+101,I'd like to order a vegetarian dish.,I'd like vegetarian order a to dish.,swap,to <-> vegetarian
+101,I'd like to order a vegetarian dish.,I'd like to dictate a vegetarian dish.,synonym,order -> dictate
+102,Thank you for the excellent service.,fantabulous Thank you for the excellent service.,insertion,inserted: fantabulous
+102,Thank you for the excellent service.,the you for Thank excellent service.,swap,Thank <-> the
+102,Thank you for the excellent service.,Thank you for the first-class excellent service.,insertion,inserted: first-class
+103,Can I change my order?,canful I change my order?,synonym,Can -> canful
+103,Can I change my order?,I change order?,deletion,"deleted: Can, my"
+103,Can I change my order?,Can order? change my I,swap,I <-> order?
+104,What are your opening hours?,What are your chess opening hours?,synonym,opening -> chess opening
+104,What are your opening hours?,are What your opening hours?,swap,What <-> are
+104,What are your opening hours?,What are your,deletion,"deleted: opening, hours?"
+105,Is gratuity included in the bill?,Is gratuity included in the bill?,deletion,none
+105,Is gratuity included in the bill?,Is gratuity the in included bill?,swap,included <-> the
+105,Is gratuity included in the bill?,Is gratuity included in the bill?,deletion,none
+106,We'd like to order now.,We'd wish to order now.,synonym,like -> wish
+106,We'd like to order now.,We'd like comparable to order now.,insertion,inserted: comparable
+106,We'd like to order now.,like to order now.,deletion,deleted: We'd
+107,The service was very slow.,The service very slow.,deletion,deleted: was
+107,The service was very slow.,The service was very slow.,deletion,none
+107,The service was very slow.,service The was very slow.,swap,service <-> The
+108,I found a hair in my food.,I found a hair in my food.,deletion,none
+108,I found a hair in my food.,I found a hair in my hairsbreadth food.,insertion,inserted: hairsbreadth
+108,I found a hair in my food.,I found a hair in food. my,swap,food. <-> my
+109,The service was very slow.,The service was very follow slow.,insertion,inserted: follow
+109,The service was very slow.,The robert william service was very slow.,synonym,service -> robert william service
+109,The service was very slow.,The service equal very slow.,synonym,was -> equal
+110,"Can I speak to the manager, please?","Can I speak to single the manager, please?",insertion,inserted: single
+110,"Can I speak to the manager, please?","potty I speak to the manager, please?",synonym,Can -> potty
+110,"Can I speak to the manager, please?","Can I speak to the manager,",deletion,deleted: please?
+111,The service was very slow.,The service was rattling slow.,synonym,very -> rattling
+111,The service was very slow.,The service washington very slow.,synonym,was -> washington
+111,The service was very slow.,The service was very slow. help,insertion,inserted: help
+112,The food doesn’t taste fresh.,taste food doesn’t The fresh.,swap,The <-> taste
+112,The food doesn’t taste fresh.,solid food The food doesn’t taste fresh.,insertion,inserted: solid food
+112,The food doesn’t taste fresh.,The food nutrient doesn’t taste fresh.,insertion,inserted: nutrient
+113,This isn’t what I ordered.,This isn’t what I ordered.,deletion,none
+113,This isn’t what I ordered.,This isn’t what ace ordered.,synonym,I -> ace
+113,This isn’t what I ordered.,isn’t This what I ordered.,swap,isn’t <-> This
+114,"Yes, we’re ready to order.","Yes, we’re fix to order.",synonym,ready -> fix
+114,"Yes, we’re ready to order.","Yes, we’re fix ready to order.",insertion,inserted: fix
+114,"Yes, we’re ready to order.","Yes, we’re set up to order.",synonym,ready -> set up
+115,I found a hair in my food.,I found a hair in my food.,deletion,none
+115,I found a hair in my food.,I found a my food.,deletion,"deleted: hair, in"
+115,I found a hair in my food.,I found a in my food.,deletion,deleted: hair
+116,The portion size is too small.,The portion size is too small. assign,insertion,inserted: assign
+116,The portion size is too small.,The portion size component part is too small.,insertion,inserted: component part
+116,The portion size is too small.,The destiny size is too small.,synonym,portion -> destiny
+117,Do you have any daily specials?,Do you have any daily specials?,deletion,none
+117,Do you have any daily specials?,Do whatever you have any daily specials?,insertion,inserted: whatever
+117,Do you have any daily specials?,Do you have any rich person daily specials?,insertion,inserted: rich person
+118,Do you serve breakfast all day?,Do you serve all breakfast day?,swap,breakfast <-> all
+118,Do you serve breakfast all day?,Do you serve breakfast entirely day?,synonym,all -> entirely
+118,Do you serve breakfast all day?,set you serve breakfast all day?,synonym,Do -> set
+119,Compliments to the chef!,Compliments to chef!,deletion,deleted: the
+119,Compliments to the chef!,Compliments to chef! the,swap,chef! <-> the
+119,Compliments to the chef!,Compliments chef! the to,swap,to <-> chef!
+120,"Yes, we have a reservation at 7.","Yes, we have a reservation at 7.",deletion,none
+120,"Yes, we have a reservation at 7.","Yes, we have a reservation at antiophthalmic factor 7.",insertion,inserted: antiophthalmic factor
+120,"Yes, we have a reservation at 7.","Yes, we have a 7. at reservation",swap,reservation <-> 7.
+121,I'd like to order a vegetarian dish.,I'd like dish. order a vegetarian to,swap,to <-> dish.
+121,I'd like to order a vegetarian dish.,I'd like to order ilk a vegetarian dish.,insertion,inserted: ilk
+121,I'd like to order a vegetarian dish.,I'd like to adenine order a vegetarian dish.,insertion,inserted: adenine
+122,We’ll be paying separately.,We’ll be remunerative separately.,synonym,paying -> remunerative
+122,We’ll be paying separately.,We’ll be paying cost separately.,insertion,inserted: cost
+122,We’ll be paying separately.,give We’ll be paying separately.,insertion,inserted: give
+123,Thank you for the excellent service.,Thank you for the excellent service. splendid,insertion,inserted: splendid
+123,Thank you for the excellent service.,Thank you for the excellent service.,deletion,none
+123,Thank you for the excellent service.,Thank for you the excellent service.,swap,you <-> for
+124,I found a hair in my food.,I adenine found a hair in my food.,insertion,inserted: adenine
+124,I found a hair in my food.,food. found a hair in my I,swap,I <-> food.
+124,I found a hair in my food.,I found a hair pilus in my food.,insertion,inserted: pilus
+125,The service was very slow.,The service was very slow.,deletion,none
+125,The service was very slow.,The service was slow.,deletion,deleted: very
+125,The service was very slow.,The service was very slow.,deletion,none
+126,Can I get another glass of water?,sack I get another glass of water?,synonym,Can -> sack
+126,Can I get another glass of water?,Can I get some other glass of water?,synonym,another -> some other
+126,Can I get another glass of water?,Can I get another glass of water?,deletion,none
+127,Great atmosphere and friendly staff.,groovy Great atmosphere and friendly staff.,insertion,inserted: groovy
+127,Great atmosphere and friendly staff.,staff. atmosphere and friendly Great,swap,Great <-> staff.
+127,Great atmosphere and friendly staff.,favorable Great atmosphere and friendly staff.,insertion,inserted: favorable
+128,I’ll definitely come back again.,definitely I’ll come back again.,swap,I’ll <-> definitely
+128,I’ll definitely come back again.,definitely come back again.,deletion,deleted: I’ll
+128,I’ll definitely come back again.,I’ll definitely hail back again.,synonym,come -> hail
+129,The food was delicious.,was food The delicious.,swap,was <-> The
+129,The food was delicious.,The food was,deletion,deleted: delicious.
+129,The food was delicious.,The food was delicious.,deletion,none
+130,Do you have any gluten-free options?,Do whatever you have any gluten-free options?,insertion,inserted: whatever
+130,Do you have any gluten-free options?,Do you have whatsoever gluten-free options?,synonym,any -> whatsoever
+130,Do you have any gluten-free options?,Do you have whatever gluten-free options?,synonym,any -> whatever
+131,"Yes, I’d like the salmon, please.","Yes, I’d wish the salmon, please.",synonym,like -> wish
+131,"Yes, I’d like the salmon, please.","Yes, I’d like the salmon, please.",deletion,none
+131,"Yes, I’d like the salmon, please.","Yes, like I’d the salmon, please.",swap,I’d <-> like
+132,"Can I get a table for two, please?","Can I get a table tabularize for two, please?",insertion,inserted: tabularize
+132,"Can I get a table for two, please?","Can I fix a table for two, please?",synonym,get -> fix
+132,"Can I get a table for two, please?","Can ane get a table for two, please?",synonym,I -> ane
+133,Do you have a table near the window?,Do you window? a table near the have,swap,window? <-> have
+133,Do you have a table near the window?,Do you have a table near the window?,deletion,none
+133,Do you have a table near the window?,Do you have a mesa near the window?,synonym,table -> mesa
+134,"Can I get a table for two, please?","Can I get a table for two, please?",deletion,none
+134,"Can I get a table for two, please?","get I Can a table for two, please?",swap,Can <-> get
+134,"Can I get a table for two, please?","Can I get a table for two, please?",deletion,none
+135,We'd like to order now.,We'd comparable to order now.,synonym,like -> comparable
+135,We'd like to order now.,We'd like to order the likes of now.,insertion,inserted: the likes of
+135,We'd like to order now.,We'd like to say now.,synonym,order -> say
+136,"Yes, we’re ready to order.","Yes, ready order.",deletion,"deleted: we’re, to"
+136,"Yes, we’re ready to order.","Yes, ready we’re to order.",swap,ready <-> we’re
+136,"Yes, we’re ready to order.","Yes, we’re ready to order.",deletion,none
+137,Is gratuity included in the bill?,Is gratuity inward included in the bill?,insertion,inserted: inward
+137,Is gratuity included in the bill?,Is gratuity included in the bill?,deletion,none
+137,Is gratuity included in the bill?,gratuity Is included in the bill?,swap,Is <-> gratuity
+138,"Can I get a table for two, please?","Can I get table a for two, please?",swap,a <-> table
+138,"Can I get a table for two, please?","table I get a Can for two, please?",swap,table <-> Can
+138,"Can I get a table for two, please?","Can I get a mesa for two, please?",synonym,table -> mesa
+139,The pasta was amazing!,The pasta represent was amazing!,insertion,inserted: represent
+139,The pasta was amazing!,The pasta was amazing!,deletion,none
+139,The pasta was amazing!,The comprise pasta was amazing!,insertion,inserted: comprise
+140,Best restaurant in town!,Best eatery in town!,synonym,restaurant -> eatery
+140,Best restaurant in town!,Best restaurant in town! unspoiled,insertion,inserted: unspoiled
+140,Best restaurant in town!,Best eating house in town!,synonym,restaurant -> eating house
+141,This was a fantastic dining experience.,This fantastical was a fantastic dining experience.,insertion,inserted: fantastical
+141,This was a fantastic dining experience.,This angstrom unit was a fantastic dining experience.,insertion,inserted: angstrom unit
+141,This was a fantastic dining experience.,This fantastic a was dining experience.,swap,was <-> fantastic
+142,The food was delicious.,The food equal delicious.,synonym,was -> equal
+142,The food was delicious.,food The was delicious.,swap,The <-> food
+142,The food was delicious.,food delicious.,deletion,"deleted: The, was"
+143,Do you take reservations?,Do reservations? take you,swap,you <-> reservations?
+143,Do you take reservations?,Do you take reservations?,deletion,none
+143,Do you take reservations?,take you Do reservations?,swap,take <-> Do
+144,Do you have a table near the window?,Do you have a near the window?,deletion,deleted: table
+144,Do you have a table near the window?,Do you have a table near the window?,deletion,none
+144,Do you have a table near the window?,Do you have a table near window?,deletion,deleted: the
+145,"Sure, I’ll wait at the bar.","Sure, I’ll the at wait bar.",swap,the <-> wait
+145,"Sure, I’ll wait at the bar.","Sure, bar. wait at the I’ll",swap,bar. <-> I’ll
+145,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the bar. postponement",insertion,inserted: postponement
+146,"Yes, everything’s great.","Yes, everything’s great.",deletion,none
+146,"Yes, everything’s great.","Yes, everything’s great.",synonym,
+146,"Yes, everything’s great.","Yes, great. everything’s",swap,great. <-> everything’s
+147,Great atmosphere and friendly staff.,staff. atmosphere and friendly Great,swap,Great <-> staff.
+147,Great atmosphere and friendly staff.,Great atmosphere aura and friendly staff.,insertion,inserted: aura
+147,Great atmosphere and friendly staff.,bang-up atmosphere and friendly staff.,synonym,Great -> bang-up
+148,The food doesn’t taste fresh.,The intellectual nourishment doesn’t taste fresh.,synonym,food -> intellectual nourishment
+148,The food doesn’t taste fresh.,The food doesn’t taste sense of taste fresh.,insertion,inserted: sense of taste
+148,The food doesn’t taste fresh.,The food doesn’t try out fresh.,synonym,taste -> try out
+149,Is gratuity included in the bill?,Is the included in gratuity bill?,swap,the <-> gratuity
+149,Is gratuity included in the bill?,Is pourboire included in the bill?,synonym,gratuity -> pourboire
+149,Is gratuity included in the bill?,Is gratuity included in the embody bill?,insertion,inserted: embody
+150,Do you have outdoor seating?,Do you have outdoor seating?,deletion,none
+150,Do you have outdoor seating?,Do have outdoor seating?,deletion,deleted: you
+150,Do you have outdoor seating?,Do have you outdoor seating?,swap,have <-> you
+151,Our reservation was not honored.,reservation was not honored.,deletion,deleted: Our
+151,Our reservation was not honored.,Our not was reservation honored.,swap,not <-> reservation
+151,Our reservation was not honored.,was not honored.,deletion,"deleted: Our, reservation"
+152,"That’s perfect, thank you.","That’s perfect, thank give thanks you.",insertion,inserted: give thanks
+152,"That’s perfect, thank you.","That’s perfect, thank give thanks you.",insertion,inserted: give thanks
+152,"That’s perfect, thank you.","That’s perfect, thank you.",insertion,none
+153,"Yes, I’d like the salmon, please.","Yes, I’d alike the salmon, please.",synonym,like -> alike
+153,"Yes, I’d like the salmon, please.","Yes, I’d similar the salmon, please.",synonym,like -> similar
+153,"Yes, I’d like the salmon, please.","Yes, I’d like the please. salmon,",swap,"please. <-> salmon,"
+154,We had a lovely time.,We had angstrom lovely time.,synonym,a -> angstrom
+154,We had a lovely time.,We had a lovely time.,deletion,none
+154,We had a lovely time.,suffer We had a lovely time.,insertion,inserted: suffer
+155,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the bar.",deletion,none
+155,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the bar.",deletion,none
+155,"Sure, I’ll wait at the bar.","Sure, I’ll await at the bar.",synonym,wait -> await
+156,Can I see the wine list?,Can I see list? wine the,swap,list? <-> the
+156,Can I see the wine list?,Can I the see wine list?,swap,see <-> the
+156,Can I see the wine list?,butt Can I see the wine list?,insertion,inserted: butt
+157,The steak is undercooked.,The undercooked. is steak,swap,steak <-> undercooked.
+157,The steak is undercooked.,steak The is undercooked.,swap,steak <-> The
+157,The steak is undercooked.,The steak is undercooked.,deletion,none
+158,"Can we have the bill, please?","Can we please? the bill, have",swap,have <-> please?
+158,"Can we have the bill, please?","Can we give birth the bill, please?",synonym,have -> give birth
+158,"Can we have the bill, please?","stimulate Can we have the bill, please?",insertion,inserted: stimulate
+159,Could you bring us the dessert menu?,Could you bring united states the dessert menu?,synonym,us -> united states
+159,Could you bring us the dessert menu?,Could bring you us the dessert menu?,swap,you <-> bring
+159,Could you bring us the dessert menu?,Could make for you bring us the dessert menu?,insertion,inserted: make for
+160,"Sure, I’ll wait at the bar.","Sure, I’ll wait astatine at the bar.",insertion,inserted: astatine
+160,"Sure, I’ll wait at the bar.","Sure, I’ll wait at atomic number 85 the bar.",insertion,inserted: atomic number 85
+160,"Sure, I’ll wait at the bar.","Sure, I’ll wait waiting at the bar.",insertion,inserted: waiting
+161,I’ll definitely come back again.,I’ll definitely come back get again.,insertion,inserted: get
+161,I’ll definitely come back again.,I’ll definitely come back again.,deletion,none
+161,I’ll definitely come back again.,I’ll definitely come back again. rachis,insertion,inserted: rachis
+162,What’s the soup of the day?,What’s the soup of the day?,synonym,
+162,What’s the soup of the day?,What’s soup of day?,deletion,deleted: the
+162,What’s the soup of the day?,What’s the soup of the day?,insertion,none
+163,We’ll be paying separately.,We’ll be paying separately.,deletion,none
+163,We’ll be paying separately.,We’ll be pay up separately.,synonym,paying -> pay up
+163,We’ll be paying separately.,pay up We’ll be paying separately.,insertion,inserted: pay up
+164,I’ll definitely come back again.,I’ll emphatically come back again.,synonym,definitely -> emphatically
+164,I’ll definitely come back again.,I’ll definitely come back again.,deletion,none
+164,I’ll definitely come back again.,again. definitely come back I’ll,swap,I’ll <-> again.
+165,"Can I get a table for two, please?","Can I get a table for two, please?",deletion,none
+165,"Can I get a table for two, please?","Can I get two, table for a please?",swap,"two, <-> a"
+165,"Can I get a table for two, please?","adenine Can I get a table for two, please?",insertion,inserted: adenine
+166,Do you have a table near the window?,Do you have a table near the window?,deletion,none
+166,Do you have a table near the window?,Do coif you have a table near the window?,insertion,inserted: coif
+166,Do you have a table near the window?,Do you have a table near the virtually window?,insertion,inserted: virtually
+167,Do you have outdoor seating?,Do you deliver outdoor seating?,synonym,have -> deliver
+167,Do you have outdoor seating?,Do outdoor have you seating?,swap,you <-> outdoor
+167,Do you have outdoor seating?,Do you let outdoor seating?,synonym,have -> let
+168,This soup is cold.,This soup is cold.,deletion,none
+168,This soup is cold.,This is cold.,deletion,deleted: soup
+168,This soup is cold.,This soup is cold. equal,insertion,inserted: equal
+169,The service was very slow.,was service The very slow.,swap,The <-> was
+169,The service was very slow.,The slow. was very service,swap,slow. <-> service
+169,The service was very slow.,The service divine service was very slow.,insertion,inserted: divine service
+170,Great atmosphere and friendly staff.,Great and atmosphere friendly staff.,swap,and <-> atmosphere
+170,Great atmosphere and friendly staff.,Great favorable atmosphere and friendly staff.,insertion,inserted: favorable
+170,Great atmosphere and friendly staff.,Great atmosphere and friendly staff.,deletion,none
+171,Can I get another glass of water?,Can I get another mother glass of water?,insertion,inserted: mother
+171,Can I get another glass of water?,Can get another glass of water?,deletion,deleted: I
+171,Can I get another glass of water?,I Can get another glass of water?,swap,I <-> Can
+172,What’s the most popular dish here?,What’s the most popular dishful here?,synonym,dish -> dishful
+172,What’s the most popular dish here?,popular the most What’s dish here?,swap,What’s <-> popular
+172,What’s the most popular dish here?,What’s popular most the dish here?,swap,popular <-> the
+173,What’s the soup of the day?,What’s the soup of the day?,deletion,none
+173,What’s the soup of the day?,What’s the of soup the day?,swap,of <-> soup
+173,What’s the soup of the day?,What’s the soup of the day?,deletion,none
+174,The steak is undercooked.,The steak equal undercooked.,synonym,is -> equal
+174,The steak is undercooked.,The personify steak is undercooked.,insertion,inserted: personify
+174,The steak is undercooked.,The steak is,deletion,deleted: undercooked.
+175,Do you have any daily specials?,Do casual you have any daily specials?,insertion,inserted: casual
+175,Do you have any daily specials?,Do you have specials? daily any,swap,any <-> specials?
+175,Do you have any daily specials?,Do you have whatever daily specials?,synonym,any -> whatever
+176,Do you have any daily specials?,specials? you have any daily Do,swap,specials? <-> Do
+176,Do you have any daily specials?,Do you have any feature daily specials?,insertion,inserted: feature
+176,Do you have any daily specials?,Do have you any daily specials?,swap,you <-> have
+177,This was a fantastic dining experience.,This a fantastic dining experience.,deletion,deleted: was
+177,This was a fantastic dining experience.,This was a fantastic dining experience.,deletion,none
+177,This was a fantastic dining experience.,This a was fantastic dining experience.,swap,was <-> a
+178,We’ve been waiting for 30 minutes.,We’ve been be waiting for 30 minutes.,insertion,inserted: be
+178,We’ve been waiting for 30 minutes.,minutes. been waiting for 30 We’ve,swap,minutes. <-> We’ve
+178,We’ve been waiting for 30 minutes.,We’ve personify waiting for 30 minutes.,synonym,been -> personify
+179,Can I get another glass of water?,Can unity get another glass of water?,synonym,I -> unity
+179,Can I get another glass of water?,Can I get another fix glass of water?,insertion,inserted: fix
+179,Can I get another glass of water?,Can I get glass another of water?,swap,another <-> glass
+180,"That will be all for now, thank you.","That will be for all now, thank you.",swap,for <-> all
+180,"That will be all for now, thank you.","That will be all now, thank",deletion,"deleted: for, you."
+180,"That will be all for now, thank you.","That will be wholly for now, thank you.",synonym,all -> wholly
+181,"That’s perfect, thank you.","That’s perfect, give thanks you.",synonym,thank -> give thanks
+181,"That’s perfect, thank you.","That’s perfect, give thanks you.",synonym,thank -> give thanks
+181,"That’s perfect, thank you.","That’s perfect, thank give thanks you.",insertion,inserted: give thanks
+182,Compliments to the chef!,chef! to the Compliments,swap,chef! <-> Compliments
+182,Compliments to the chef!,compliments to the chef!,synonym,Compliments -> compliments
+182,Compliments to the chef!,compliment to the chef!,synonym,Compliments -> compliment
+183,Our reservation was not honored.,Our reservation follow not honored.,synonym,was -> follow
+183,Our reservation was not honored.,Our non reservation was not honored.,insertion,inserted: non
+183,Our reservation was not honored.,Our reservation was not honored.,deletion,none
+184,Compliments to the chef!,Compliments to the chef! compliment,insertion,inserted: compliment
+184,Compliments to the chef!,Compliments to the chef!,deletion,none
+184,Compliments to the chef!,Compliments the chef!,deletion,deleted: to
+185,Compliments to the chef!,Compliments to the chef!,deletion,none
+185,Compliments to the chef!,Compliments to chef!,deletion,deleted: the
+185,Compliments to the chef!,Compliments to the chef!,deletion,none
+186,"Sure, I’ll wait at the bar.","Sure, wait I’ll at the bar.",swap,I’ll <-> wait
+186,"Sure, I’ll wait at the bar.","Sure, I’ll wait at the bar. atomic number 85",insertion,inserted: atomic number 85
+186,"Sure, I’ll wait at the bar.","Sure, I’ll wait atomic number 85 the bar.",synonym,at -> atomic number 85
+187,Do you take reservations?,Do you take call for reservations?,insertion,inserted: call for
+187,Do you take reservations?,Do take you reservations?,swap,take <-> you
+187,Do you take reservations?,Do you take reservations?,deletion,none
+188,The food was delicious.,washington The food was delicious.,insertion,inserted: washington
+188,The food was delicious.,The food was make up delicious.,insertion,inserted: make up
+188,The food was delicious.,The solid food food was delicious.,insertion,inserted: solid food
+189,I'd like to order a vegetarian dish.,I'd like to order a vegetarian,deletion,deleted: dish.
+189,I'd like to order a vegetarian dish.,I'd like to order a vegetarian axerophthol dish.,insertion,inserted: axerophthol
+189,I'd like to order a vegetarian dish.,I'd fiat like to order a vegetarian dish.,insertion,inserted: fiat
+190,This isn’t what I ordered.,This isn’t what one ordered.,synonym,I -> one
+190,This isn’t what I ordered.,This isn’t what I ordered.,deletion,none
+190,This isn’t what I ordered.,This I what isn’t ordered.,swap,isn’t <-> I
+191,"That’s perfect, thank you.","give thanks That’s perfect, thank you.",insertion,inserted: give thanks
+191,"That’s perfect, thank you.","perfect, That’s thank you.",swap,"perfect, <-> That’s"
+191,"That’s perfect, thank you.","That’s thank perfect, you.",swap,"thank <-> perfect,"
+192,I'd like to order a vegetarian dish.,I'd comparable to order a vegetarian dish.,synonym,like -> comparable
+192,I'd like to order a vegetarian dish.,I'd like to order vegetarian,deletion,"deleted: a, dish."
+192,I'd like to order a vegetarian dish.,I'd like to order a vegetarian dish.,deletion,none
+193,The service was very slow.,The avail was very slow.,synonym,service -> avail
+193,The service was very slow.,The service was very slow.,deletion,none
+193,The service was very slow.,The service was very slow.,deletion,none
+194,"That will be all for now, thank you.","That will be cost all for now, thank you.",insertion,inserted: cost
+194,"That will be all for now, thank you.","That will be all for now, thank you.",deletion,none
+194,"That will be all for now, thank you.","That will be all for give thanks now, thank you.",insertion,inserted: give thanks
+195,Our reservation was not honored.,Our reservation not honored.,deletion,deleted: was
+195,Our reservation was not honored.,Our reservation was non honored.,synonym,not -> non
+195,Our reservation was not honored.,Our qualification was not honored.,synonym,reservation -> qualification
+196,We'd like to order now.,We'd like to enjoin now.,synonym,order -> enjoin
+196,We'd like to order now.,We'd like to prescribe now.,synonym,order -> prescribe
+196,We'd like to order now.,We'd corresponding to order now.,synonym,like -> corresponding
+197,Is gratuity included in the bill?,Is gratuity included atomic number 49 the bill?,synonym,in -> atomic number 49
+197,Is gratuity included in the bill?,Is pourboire included in the bill?,synonym,gratuity -> pourboire
+197,Is gratuity included in the bill?,Is gratuity included in bill? the,swap,the <-> bill?
+198,The service was very slow.,The exist service was very slow.,insertion,inserted: exist
+198,The service was very slow.,The service comprise very slow.,synonym,was -> comprise
+198,The service was very slow.,very service was The slow.,swap,very <-> The
+199,Thank you for the excellent service.,Thank you for first-class the excellent service.,insertion,inserted: first-class
+199,Thank you for the excellent service.,you for the excellent service.,deletion,deleted: Thank
+199,Thank you for the excellent service.,Thank you for the excellent service. first-class,insertion,inserted: first-class

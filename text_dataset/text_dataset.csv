@@ -1,0 +1,201 @@
+id,text,label
+1,I found a hair in my food.,complaint
+2,Could you bring us the dessert menu?,request
+3,Great atmosphere and friendly staff.,praise
+4,Compliments to the chef!,praise
+5,This was a fantastic dining experience.,praise
+6,"Yes, I’d like the salmon, please.",confirmation
+7,What’s the most popular dish here?,inquiry
+8,Do you have a table near the window?,request
+9,"Can I get a table for two, please?",request
+10,"That’s correct, two coffees and a muffin.",confirmation
+11,This was a fantastic dining experience.,praise
+12,"Yes, I’d like the salmon, please.",confirmation
+13,"Yes, we have a reservation at 7.",confirmation
+14,"No, we haven’t ordered yet.",confirmation
+15,Everything was perfect tonight.,praise
+16,My order is taking too long.,complaint
+17,Do you serve breakfast all day?,inquiry
+18,"That will be all for now, thank you.",confirmation
+19,"That’s perfect, thank you.",confirmation
+20,Do you have a table near the window?,request
+21,We’ve been waiting for 30 minutes.,complaint
+22,"That’s perfect, thank you.",confirmation
+23,The pasta was amazing!,praise
+24,Best restaurant in town!,praise
+25,We'd like to order now.,request
+26,"Can we have the bill, please?",request
+27,"Can I get a table for two, please?",request
+28,"Yes, we have a reservation at 7.",confirmation
+29,Do you have outdoor seating?,inquiry
+30,"Sure, I’ll wait at the bar.",confirmation
+31,Compliments to the chef!,praise
+32,Do you serve breakfast all day?,inquiry
+33,We had a lovely time.,praise
+34,The service was very slow.,complaint
+35,Our reservation was not honored.,complaint
+36,"Can I get a table for two, please?",request
+37,Compliments to the chef!,praise
+38,Do you have any daily specials?,inquiry
+39,Do you take reservations?,inquiry
+40,I found a hair in my food.,complaint
+41,This was a fantastic dining experience.,praise
+42,Can I change my order?,request
+43,We had a lovely time.,praise
+44,Best restaurant in town!,praise
+45,"That will be all for now, thank you.",confirmation
+46,"Yes, everything’s great.",confirmation
+47,"That’s correct, two coffees and a muffin.",confirmation
+48,This was a fantastic dining experience.,praise
+49,The steak is undercooked.,complaint
+50,Do you have a table near the window?,request
+51,The pasta was amazing!,praise
+52,Can I change my order?,request
+53,"Yes, we have a reservation at 7.",confirmation
+54,Can I see the wine list?,inquiry
+55,"Sure, I’ll wait at the bar.",confirmation
+56,Is gratuity included in the bill?,inquiry
+57,This soup is cold.,complaint
+58,I found a hair in my food.,complaint
+59,Do you have outdoor seating?,inquiry
+60,Can I see the wine list?,inquiry
+61,"That will be all for now, thank you.",confirmation
+62,Do you have any gluten-free options?,request
+63,We had a lovely time.,praise
+64,"Yes, everything’s great.",confirmation
+65,"That’s perfect, thank you.",confirmation
+66,Do you have a table near the window?,request
+67,"Yes, we have a reservation at 7.",confirmation
+68,The food doesn’t taste fresh.,complaint
+69,We’ve been waiting for 30 minutes.,complaint
+70,This was a fantastic dining experience.,praise
+71,Can I get another glass of water?,request
+72,"Sure, I’ll wait at the bar.",confirmation
+73,"Can I get a table for two, please?",request
+74,"Sure, I’ll wait at the bar.",confirmation
+75,"That’s correct, two coffees and a muffin.",confirmation
+76,Is gratuity included in the bill?,inquiry
+77,Can I see the wine list?,inquiry
+78,This was a fantastic dining experience.,praise
+79,The steak is undercooked.,complaint
+80,I found a hair in my food.,complaint
+81,We’ll be paying separately.,confirmation
+82,Great atmosphere and friendly staff.,praise
+83,What’s the most popular dish here?,inquiry
+84,"Can I speak to the manager, please?",request
+85,The pasta was amazing!,praise
+86,This isn’t what I ordered.,complaint
+87,Thank you for the excellent service.,praise
+88,Do you have a table near the window?,request
+89,Great atmosphere and friendly staff.,praise
+90,The steak is undercooked.,complaint
+91,This isn’t what I ordered.,complaint
+92,I’ll definitely come back again.,praise
+93,What are your opening hours?,inquiry
+94,My order is taking too long.,complaint
+95,This isn’t what I ordered.,complaint
+96,"Yes, we’re ready to order.",confirmation
+97,Our reservation was not honored.,complaint
+98,What are your opening hours?,inquiry
+99,Best restaurant in town!,praise
+100,"Can we have the bill, please?",request
+101,I’ll definitely come back again.,praise
+102,I'd like to order a vegetarian dish.,request
+103,Thank you for the excellent service.,praise
+104,Can I change my order?,request
+105,What are your opening hours?,inquiry
+106,Is gratuity included in the bill?,inquiry
+107,We'd like to order now.,request
+108,The service was very slow.,complaint
+109,I found a hair in my food.,complaint
+110,The service was very slow.,complaint
+111,"Can I speak to the manager, please?",request
+112,The service was very slow.,complaint
+113,The food doesn’t taste fresh.,complaint
+114,This isn’t what I ordered.,complaint
+115,"Yes, we’re ready to order.",confirmation
+116,I found a hair in my food.,complaint
+117,The portion size is too small.,complaint
+118,Do you have any daily specials?,inquiry
+119,Do you serve breakfast all day?,inquiry
+120,Compliments to the chef!,praise
+121,"Yes, we have a reservation at 7.",confirmation
+122,I'd like to order a vegetarian dish.,request
+123,We’ll be paying separately.,confirmation
+124,Thank you for the excellent service.,praise
+125,I found a hair in my food.,complaint
+126,The service was very slow.,complaint
+127,Can I get another glass of water?,request
+128,Great atmosphere and friendly staff.,praise
+129,I’ll definitely come back again.,praise
+130,The food was delicious.,praise
+131,Do you have any gluten-free options?,request
+132,"Yes, I’d like the salmon, please.",confirmation
+133,"Can I get a table for two, please?",request
+134,Do you have a table near the window?,request
+135,"Can I get a table for two, please?",request
+136,We'd like to order now.,request
+137,"Yes, we’re ready to order.",confirmation
+138,Is gratuity included in the bill?,inquiry
+139,"Can I get a table for two, please?",request
+140,The pasta was amazing!,praise
+141,Best restaurant in town!,praise
+142,This was a fantastic dining experience.,praise
+143,The food was delicious.,praise
+144,Do you take reservations?,inquiry
+145,Do you have a table near the window?,request
+146,"Sure, I’ll wait at the bar.",confirmation
+147,"Yes, everything’s great.",confirmation
+148,Great atmosphere and friendly staff.,praise
+149,The food doesn’t taste fresh.,complaint
+150,Is gratuity included in the bill?,inquiry
+151,Do you have outdoor seating?,inquiry
+152,Our reservation was not honored.,complaint
+153,"That’s perfect, thank you.",confirmation
+154,"Yes, I’d like the salmon, please.",confirmation
+155,We had a lovely time.,praise
+156,"Sure, I’ll wait at the bar.",confirmation
+157,Can I see the wine list?,inquiry
+158,The steak is undercooked.,complaint
+159,"Can we have the bill, please?",request
+160,Could you bring us the dessert menu?,request
+161,"Sure, I’ll wait at the bar.",confirmation
+162,I’ll definitely come back again.,praise
+163,What’s the soup of the day?,inquiry
+164,We’ll be paying separately.,confirmation
+165,I’ll definitely come back again.,praise
+166,"Can I get a table for two, please?",request
+167,Do you have a table near the window?,request
+168,Do you have outdoor seating?,inquiry
+169,This soup is cold.,complaint
+170,The service was very slow.,complaint
+171,Great atmosphere and friendly staff.,praise
+172,Can I get another glass of water?,request
+173,What’s the most popular dish here?,inquiry
+174,What’s the soup of the day?,inquiry
+175,The steak is undercooked.,complaint
+176,Do you have any daily specials?,inquiry
+177,Do you have any daily specials?,inquiry
+178,This was a fantastic dining experience.,praise
+179,We’ve been waiting for 30 minutes.,complaint
+180,Can I get another glass of water?,request
+181,"That will be all for now, thank you.",confirmation
+182,"That’s perfect, thank you.",confirmation
+183,Compliments to the chef!,praise
+184,Our reservation was not honored.,complaint
+185,Compliments to the chef!,praise
+186,Compliments to the chef!,praise
+187,"Sure, I’ll wait at the bar.",confirmation
+188,Do you take reservations?,inquiry
+189,The food was delicious.,praise
+190,I'd like to order a vegetarian dish.,request
+191,This isn’t what I ordered.,complaint
+192,"That’s perfect, thank you.",confirmation
+193,I'd like to order a vegetarian dish.,request
+194,The service was very slow.,complaint
+195,"That will be all for now, thank you.",confirmation
+196,Our reservation was not honored.,complaint
+197,We'd like to order now.,request
+198,Is gratuity included in the bill?,inquiry
+199,The service was very slow.,complaint
+200,Thank you for the excellent service.,praise
